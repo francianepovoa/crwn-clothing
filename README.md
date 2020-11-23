@@ -1,5 +1,11 @@
-# E-commerce website
+# Crwn-Clothing is a application built on React.js
 
-E-commerce website, using React from Zero to Mastery Academy course.
+<p align="center">
 
-## Status: Creating...
+<img alt="language count" src="https://img.shields.io/github/languages/count/francianepovoa/crwn-clothing?style=plastic">
+<img alt="top language" src="https://img.shields.io/github/languages/top/francianepovoa/crwn-clothing?style=plastic">
+<img alt="last commit" src="https://img.shields.io/github/last-commit/francianepovoa/crwn-clothing">
+<img alt="repo size" src="https://img.shields.io/github/repo-size/francianepovoa/crwn-clothing">
+</p>
+
+
