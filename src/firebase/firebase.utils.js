@@ -17,7 +17,7 @@ const config = {
 	measurementId: "G-CK6GKG9W73",
 };
 
-//Create a profile document in firestore library
+//Create a function for a profile document in firestore library
 export const createUserProfileDocument = async (userAuth, additionalData) => {
 	if (!userAuth) return;
 
@@ -42,6 +42,41 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 	}
 
 	return userRef;
+};
+
+//Create a new  function for a collection document with shop items in firestore library
+export const addCollectionAndDocuments = async (
+	collectionKey,
+	objectsToAdd
+) => {
+	const collectionRef = firestore.collection(collectionKey);
+
+	const batch = firestore.batch();
+	objectsToAdd.forEach((obj) => {
+		const newDocRef = collectionRef.doc();
+		batch.set(newDocRef, obj);
+	});
+
+	return await batch.commit();
+};
+
+//Create a new function to convert an object instead of an array
+export const convertCollectionsSnapshotToMap = (collections) => {
+	const transformedCollection = collections.docs.map((doc) => {
+		const { title, items } = doc.data();
+
+		return {
+			routeName: encodeURI(title.toLowerCase()),
+			id: doc.id,
+			title,
+			items,
+		};
+	});
+
+	return transformedCollection.reduce((accumulator, collection) => {
+		accumulator[collection.title.toLowerCase()] = collection;
+		return accumulator;
+	}, {});
 };
 
 //Compile firebase code
