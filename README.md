@@ -16,10 +16,29 @@
 
 ## 👨🏻‍💻 About the project
 
-This is an E-commerce project using React.js, Firebase, Redux, and Stripe. The idea is a greater number of processes with better performance.
+ This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase.
 
+ - React
 
-This is a project developed by me (Franciane Povoa) during the course: "Complete React Developer". An online programming platform offered by ZTM Academy, that shows how to use the React.js stack.
+- React Router
+
+- Redux
+
+- Redux Saga
+
+- Asynchronous Redux
+
+- React Hooks
+
+- Context API
+
+- React Suspense + React Lazy
+
+- Firebase
+
+- Stripe API
+
+- Styled-Components
 
 ## 🚀 Frontend Technologies
 <h1 align="center">
