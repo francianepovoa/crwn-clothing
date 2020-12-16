@@ -1,4 +1,4 @@
-# Crwn-Clothing is a application built on React.js
+# Crwn-Clothing is an application built on React.js
 
 <p align="center">
 
