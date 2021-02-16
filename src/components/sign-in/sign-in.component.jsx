@@ -9,11 +9,16 @@ import {
 	emailSignInStart,
 } from "../../redux/user/user.actions";
 
-import "./sign-in.styles.scss";
+import {
+	SignInContainer,
+	SignInTitle,
+	ButtonsBarContainer,
+} from "./sign-in.styles";
 
 class SignIn extends React.Component {
 	constructor(props) {
 		super(props);
+
 		this.state = {
 			email: "",
 			password: "",
@@ -37,41 +42,38 @@ class SignIn extends React.Component {
 	render() {
 		const { googleSignInStart } = this.props;
 		return (
-			<div className='sign-in'>
-				<h2>I already have an account</h2>
+			<SignInContainer>
+				<SignInTitle>I already have an account</SignInTitle>
 				<span>Sign in with your email and password</span>
 
 				<form onSubmit={this.handleSubmit}>
 					<FormInput
-						type='email'
 						name='email'
+						type='email'
 						handleChange={this.handleChange}
 						value={this.state.email}
 						label='email'
 						required
 					/>
-
 					<FormInput
-						type='password'
 						name='password'
+						type='password'
 						value={this.state.password}
 						handleChange={this.handleChange}
 						label='password'
 						required
 					/>
-
-					<div className='buttons'>
+					<ButtonsBarContainer>
 						<CustomButton type='submit'> Sign in </CustomButton>
 						<CustomButton
 							type='button'
 							onClick={googleSignInStart}
 							isGoogleSignIn>
-							{" "}
-							Sign in with Google{" "}
+							Sign in with Google
 						</CustomButton>
-					</div>
+					</ButtonsBarContainer>
 				</form>
-			</div>
+			</SignInContainer>
 		);
 	}
 }
