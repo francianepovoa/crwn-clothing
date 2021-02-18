@@ -3,22 +3,23 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
-//Styles
+// ?Styles
 import "./App.css";
 
-// Pages
+// ?Pages
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
 import SignInAndSignUpPage from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import CheckoutPage from "./pages/checkout/checkout.component";
 
-// Components
+// ?Components
 import Header from "./components/header/header.component";
 
-//Redux
+// ?Redux
 import { selectCurrentUser } from "../src/redux/user/user.selectors";
 import { checkUserSession } from "./redux/user/user.actions";
 
+// ** My method
 const App = ({ checkUserSession, currentUser }) => {
 	useEffect(() => {
 		checkUserSession();
