@@ -42,7 +42,7 @@
 
 ## 🚀 Frontend Technologies
 <h1 align="center">
-	<img alt="Project Screenshots" src="https://github.com/francianepovoa/crwn-clothing/blob/master/img/Home.png" width="350px" height="250px" />
+	<img alt="Project Screenshots" src="./img/HomePage.gif"/>
 </h1>
 
 Technologies that I used to develop this frontend app
