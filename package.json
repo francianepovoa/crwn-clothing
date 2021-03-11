@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.1.6",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "firebase": "^7.21.0",
     "http-proxy": "^1.18.1",
     "ini": "^2.0.0",
