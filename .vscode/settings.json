@@ -8,6 +8,7 @@
         "Yeezy",
         "crwn",
         "nikes",
-        "persistor"
+        "persistor",
+        "postbuild"
     ]
 }
