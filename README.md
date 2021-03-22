@@ -10,10 +10,14 @@
 
 <p align="center"> 
   <a href="#-frontend-technologies">Frontend Technologies</a>&nbsp;|&nbsp;
-  <a href="#-frontend-getting-started">Frontend Getting Started</a>&nbsp;|&nbsp
-  <a href="#-how-to-contribute-frontend">How To Contribute</a>&nbsp;|&nbsp;
+  <a href="#-Getting-started">Frontend Getting Started</a>&nbsp;|&nbsp
+  
 </p>
 
+<p align="center">
+  <a href="#-backend-technologies">Backend Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+ <a href="#-how-to-contribute-frontend">How To Contribute</a>&nbsp;|&nbsp;
+</p>
 ## 👨🏻‍💻 About the project
 
  This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase.
@@ -55,7 +59,7 @@ Technologies that I used to develop this frontend app
 - [React Stripe](https://stripe.com/docs/stripe-js/react)
 - [VS Code](https://code.visualstudio.com) with [ESLInt](https://eslint.org/docs/user-guide/getting-started), and [Prettier RC](https://github.com/prettier/prettier)
 
-## 💻 Frontend getting started
+## 💻 Getting started
 
 ### Requirements
 
@@ -79,9 +83,20 @@ $ cd crwn-clothing
 $ yarn
 
 # Run the web app
-$ yarn start
+$ yarn dev
 ```
 
+## 💻 Backend getting started
+
+Technologies that I used to develop this backend app
+### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [nodemon](https://nodemon.io/)
+- [Express](https://expressjs.com/)
+- [body-parser](https://github.com/expressjs/body-parser)
+- [dotenv](https://github.com/motdotla/dotenv)
 
 ## Set your firebase config
 
@@ -96,7 +111,7 @@ Set the `publishableKey` variable in the `stripe-button.component.jsx` with your
 
 ![enter image description here](https://camo.githubusercontent.com/fb711e324a7e95a935e5db8ca73549c48e4fc3f8cd1a31ad893a8f18f72bd23e/68747470733a2f2f692e6962622e636f2f646a51546d56462f53637265656e2d53686f742d323031392d30372d30312d61742d322d31382d35302d414d2e706e67)
 
-## 🤔 How to contribute frontend
+## 🤔 How to contribute 
 
 **Follow the steps below**
 
@@ -118,7 +133,7 @@ $ git push origin your-feature
 
 After your pull request is merged, you can delete your branch
 
-## 📝 Frontend License
+## 📝 Project License
 
 This project is under the MIT license. See the [LICENSE](https://github.com/francianepovoa/crwn-clothing/blob/master/LICENSE) for more information.
 
