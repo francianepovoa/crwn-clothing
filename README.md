@@ -10,7 +10,7 @@
 
 <p align="center"> 
   <a href="#-frontend-technologies">Frontend Technologies</a>&nbsp;|&nbsp;
-  <a href="#-Getting-started">Frontend Getting Started</a>&nbsp;|&nbsp
+  <a href="#-Getting-started">Getting Started</a>&nbsp;|&nbsp
   
 </p>
 
