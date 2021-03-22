@@ -18,6 +18,7 @@
   <a href="#-backend-technologies">Backend Technologies</a>&nbsp;&nbsp;|&nbsp;&nbsp;
  <a href="#-how-to-contribute-frontend">How To Contribute</a>&nbsp;|&nbsp;
 </p>
+
 ## 👨🏻‍💻 About the project
 
  This is an E-commerce application similar to Shopify using React, Redux, React Router, Context API, Firebase, Stripe + more. This is going to be a full stack app (MERN stack), using Firebase.
