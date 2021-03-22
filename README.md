@@ -87,7 +87,7 @@ $ yarn
 $ yarn dev
 ```
 
-## 💻 Backend getting started
+## 💻 Backend Technologies
 
 Technologies that I used to develop this backend app
 ### Requirements
