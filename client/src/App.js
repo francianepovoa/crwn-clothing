@@ -4,7 +4,8 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 // ?Styles
-import "./App.css";
+
+import { GlobalStyle } from "./global.styles";
 
 // ?Pages
 import HomePage from "./pages/homepage/homepage.component";
@@ -27,6 +28,7 @@ const App = ({ checkUserSession, currentUser }) => {
 
 	return (
 		<div>
+			<GlobalStyle />
 			<Header />
 			<Switch>
 				<Route exact path='/' component={HomePage} />
