@@ -1,3 +1,12 @@
+/*
+1. The checkout-page class is used to create a flexbox container with a width of 55% and a min-height of 90vh.
+2. The checkout-header class is used to create a flexbox container with a width of 100% and a padding of 10px 0.
+3. The header-block class is used to create a flexbox container with a width of 23% and text-transform of capitalize.
+4. The last-child class is used to create a flexbox container with a width of 8% and text-transform of capitalize.
+5. The total class is used to create a flexbox container with a margin-top of 30px, margin-left of auto, font-size of 36px, and text-align of center.
+6. The button class is used to create a flexbox container with a margin-left of auto, margin-top of 50px, and text-align of center.
+7. The test-warning class is used to create a flexbox container with a text-align of center, margin-top of 40px, font-size of 24px, and color of red.
+*/
 .checkout-page {
 	width: 55%;
 	min-height: 90vh;
