@@ -1,3 +1,9 @@
+/*
+1. It’s using the flexbox grid to create a column layout.
+2. It’s using the grid-template-columns property to create a grid with four columns.
+3. It’s using the grid-gap property to create a 10px gap between each item in the grid.
+4. It’s using the margin-bottom property to create a 30px margin at the bottom of each item.
+*/
 .collection-page {
 	display: flex;
 	flex-direction: column;
