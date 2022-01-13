@@ -47,7 +47,7 @@
 
 ## 🚀 Frontend Technologies
 <h1 align="center">
-	<img alt="Project Screenshots" src="./img/HomePage.gif.icloud"/>
+	<img alt="Project Screenshots" src="./img/HomePage.gif"/>
 </h1>
 
 Technologies that I used to develop this frontend app
