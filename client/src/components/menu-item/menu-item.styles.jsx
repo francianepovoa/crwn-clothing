@@ -1,5 +1,7 @@
+//It imports the React library and the styled-components library.
 import styled from "styled-components";
 
+//It creates a styled component that will be used to create the menu items.
 export const MenuItemContainer = styled.div`
 	height: ${({ size }) => (size ? "380px" : "240px")};
 	min-width: 30%;
@@ -32,6 +34,12 @@ export const MenuItemContainer = styled.div`
 	}
 `;
 
+/*
+1. We’re creating a styled component that will take an imageUrl prop.
+2. We’re setting the background image of the div to the imageUrl that is passed in.
+3. We’re setting the background size to cover, which means it will cover the entire background.
+4. We’re setting the background position to center, which means the image will be centered.
+*/
 export const BackgroundImageContainer = styled.div`
 	width: 100%;
 	height: 100%;
@@ -40,6 +48,12 @@ export const BackgroundImageContainer = styled.div`
 	background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 
+/*
+1. The styled-components library is imported.
+2. The styled-components library is used to create a new component called ContentContainer.
+3. The ContentContainer component is given a height of 90px, a padding of 0 25px, a display of flex, a flex-direction of column, an align-items of center, a justify-content of center, a border of 1px solid black, a background-color of white, and an opacity of 0.7.
+4. The ContentContainer component is given a position of absolute.
+*/
 export const ContentContainer = styled.div`
 	height: 90px;
 	padding: 0 25px;
@@ -53,6 +67,10 @@ export const ContentContainer = styled.div`
 	position: absolute;
 `;
 
+/*
+1. Import styled from react-emotion.
+2. Create a new component called ContentTitle.
+*/
 export const ContentTitle = styled.span`
 	font-weight: bold;
 	margin-bottom: 6px;
@@ -60,6 +78,7 @@ export const ContentTitle = styled.span`
 	color: #4a4a4a;
 `;
 
+//It creates a styled component that renders a span with the font-weight lighter and font-size 16px.
 export const ContentSubtitle = styled.span`
 	font-weight: lighter;
 	font-size: 16px;

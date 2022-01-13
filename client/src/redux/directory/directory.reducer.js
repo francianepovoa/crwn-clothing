@@ -1,3 +1,9 @@
+/*
+1. First, we create an array of objects that will be used to populate the store.
+2. Next, we create an object that will be used to create the store.
+3. Then, we create an object that will be used to create the store’s reducer.
+4. Finally, we create the store and export it.
+*/
 const INITIAL_STATE = {
 	sections: [
 		{
@@ -35,6 +41,12 @@ const INITIAL_STATE = {
 	],
 };
 
+/*
+1. The directoryReducer function is called with the default state and the action.
+2. The switch statement checks the action.type and compares it to the default case.
+3. If the action.type is not equal to the default case, the switch statement returns the action.type.
+4. If the action.type is equal to the default case, the switch statement returns the default state.
+*/
 const directoryReducer = (state = INITIAL_STATE, action) => {
 	switch (action.type) {
 		default:
@@ -42,4 +54,5 @@ const directoryReducer = (state = INITIAL_STATE, action) => {
 	}
 };
 
+//It creates a reducer that will be used to store the directory data.
 export default directoryReducer;
