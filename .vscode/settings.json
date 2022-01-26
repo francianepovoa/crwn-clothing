@@ -2,15 +2,16 @@
     "cSpell.words": [
         "Camo",
         "Cpez",
-        "Longsleeve",
-        "Shearling",
-        "Tanktop",
-        "Womens",
-        "Yeezy",
         "crwn",
+        "Longsleeve",
         "nikes",
         "persistor",
-        "postbuild"
+        "postbuild",
+        "Shearling",
+        "SIGNOUT",
+        "Tanktop",
+        "Womens",
+        "Yeezy"
     ],
     "docwriter.style": "JSDoc"
 }

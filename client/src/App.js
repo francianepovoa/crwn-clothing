@@ -1,34 +1,22 @@
 //It imports React, useEffect, lazy, and Suspense from the react library.
 import React, { useEffect, lazy, Suspense } from "react";
-
 //It imports the Switch, Route, and Redirect components from the react-router-dom package.
 import { Switch, Route, Redirect } from "react-router-dom";
-
 //This code connects the component to the Redux store.
 import { connect } from "react-redux";
-
 //It creates a new object that has the same keys as the state object.
 import { createStructuredSelector } from "reselect";
-
-// ?Styles
 //It imports the GlobalStyle component from the global.styles file.
 import { GlobalStyle } from "./global.styles";
-
-// ?Components
 //It imports the Header component from the components folder.
 import Header from "./components/header/header.component";
 //It imports the Spinner component from the components/spinner/spinner.component.jsx file.
 import Spinner from "./components/spinner/spinner.component.jsx";
-
-// ?Redux
 //It imports the selectCurrentUser selector from the user.selectors file.
 import { selectCurrentUser } from "../src/redux/user/user.selectors";
 //It imports the redux action checkUserSession from the user.actions file.
 import { checkUserSession } from "./redux/user/user.actions";
 
-// ** My method
-
-// ?React Lazy Pages
 /*
 It imports the HomePage component and loads it.
 */
